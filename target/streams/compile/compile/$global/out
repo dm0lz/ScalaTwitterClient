@@ -1,0 +1,33 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set(/home/fetcher/Desktop/my-awesome-project/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/fetcher/Desktop/ScalaTwitterClient/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(/home/fetcher/Desktop/my-awesome-project/target/scala-2.9.2/classes/com/example/myproj/Main$delayedInit$body.class, /home/fetcher/Desktop/my-awesome-project/target/scala-2.9.2/classes/com/example/myproj/Main$.class, /home/fetcher/Desktop/my-awesome-project/target/scala-2.9.2/classes/com/example/myproj/Main.class)[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/fetcher/Desktop/my-awesome-project/src/main/scala/Main.scala, /home/fetcher/Desktop/ScalaTwitterClient/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set(/home/fetcher/Desktop/my-awesome-project/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mInitially invalidated: Set(/home/fetcher/Desktop/my-awesome-project/src/main/scala/Main.scala, /home/fetcher/Desktop/ScalaTwitterClient/src/main/scala/Main.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/fetcher/Desktop/ScalaTwitterClient/target/scala-2.9.2/classes...[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3e0ec4, interfacing (CompilerInterface) with Scala compiler version 2.9.2[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/home/fetcher/Desktop/ScalaTwitterClient/target/scala-2.9.2/classes[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes:/home/fetcher/.sbt/boot/scala-2.9.2/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/fetcher/Desktop/ScalaTwitterClient/target/scala-2.9.2/classes:/home/fetcher/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-2.2.6-SNAPSHOT.jar:/home/fetcher/.ivy2/cache/org.twitter4j/twitter4j-stream/jars/twitter4j-stream-2.2.6-SNAPSHOT.jar:/home/fetcher/.ivy2/cache/net.debasishg/redisclient_2.9.2/jars/redisclient_2.9.2-2.6.jar:/home/fetcher/.ivy2/cache/commons-pool/commons-pool/jars/commons-pool-1.5.6.jar:/home/fetcher/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.1.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 1.268355445 s[0m
+[0m[[0mdebug[0m] [0mStep 2 changed sources and immdediate dependencies:[0m
+[0m[[0mdebug[0m] [0m	Set(/home/fetcher/Desktop/my-awesome-project/src/main/scala/Main.scala, /home/fetcher/Desktop/ScalaTwitterClient/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0mNon-trivial strongly connected components: [0m
+[0m[[0mdebug[0m] [0m	[0m
+[0m[[0mdebug[0m] [0mStep 2 invalidated sources:[0m
+[0m[[0mdebug[0m] [0m	Set(/home/fetcher/Desktop/my-awesome-project/src/main/scala/Main.scala, /home/fetcher/Desktop/ScalaTwitterClient/src/main/scala/Main.scala)[0m

@@ -1,0 +1,872 @@
+[0m[[0minfo[0m] [0mUpdating {file:/home/fetcher/Desktop/ScalaTwitterClient/}project...[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: com.example#myproj_2.9.2;0.1.0-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-library;2.9.2[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/fetcher/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /home/fetcher/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0msbt-chain: no latest strategy defined: using default[0m
+[0m[[0mdebug[0m] [0mlocal: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/fetcher/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /home/fetcher/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-library;2.9.2 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-library;2.9.2 from sbt-chain[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m	 trying /home/fetcher/.ivy2/local/org.twitter4j/twitter4j-core/2.2.6-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /home/fetcher/.ivy2/local/org.twitter4j/twitter4j-core/2.2.6-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT: res=/home/fetcher/.ivy2/local/org.twitter4j/twitter4j-core/2.2.6-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mtwitter4j: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m	 trying http://twitter4j.org/maven2/org/twitter4j/twitter4j-core/2.2.6-SNAPSHOT/twitter4j-core-2.2.6-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://twitter4j.org/maven2/org/twitter4j/twitter4j-core/2.2.6-SNAPSHOT/twitter4j-core-2.2.6-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	twitter4j: found md file for org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://twitter4j.org/maven2/org/twitter4j/twitter4j-core/2.2.6-SNAPSHOT/twitter4j-core-2.2.6-SNAPSHOT.pom (2.2.6-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@400806[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/fetcher/.ivy2/cache/org.twitter4j/twitter4j-core/ivy-2.2.6-SNAPSHOT.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT (resolved by twitter4j): /home/fetcher/.ivy2/cache/org.twitter4j/twitter4j-core/ivy-2.2.6-SNAPSHOT.xml[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache (not updated): org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	checking org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT from twitter4j against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT from twitter4j[0m
+[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT in twitter4j[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m	 trying /home/fetcher/.ivy2/local/org.twitter4j/twitter4j-stream/2.2.6-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /home/fetcher/.ivy2/local/org.twitter4j/twitter4j-stream/2.2.6-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT: res=/home/fetcher/.ivy2/local/org.twitter4j/twitter4j-stream/2.2.6-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m	 trying http://twitter4j.org/maven2/org/twitter4j/twitter4j-stream/2.2.6-SNAPSHOT/twitter4j-stream-2.2.6-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://twitter4j.org/maven2/org/twitter4j/twitter4j-stream/2.2.6-SNAPSHOT/twitter4j-stream-2.2.6-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	twitter4j: found md file for org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://twitter4j.org/maven2/org/twitter4j/twitter4j-stream/2.2.6-SNAPSHOT/twitter4j-stream-2.2.6-SNAPSHOT.pom (2.2.6-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@400806[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/fetcher/.ivy2/cache/org.twitter4j/twitter4j-stream/ivy-2.2.6-SNAPSHOT.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT (resolved by twitter4j): /home/fetcher/.ivy2/cache/org.twitter4j/twitter4j-stream/ivy-2.2.6-SNAPSHOT.xml[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache (not updated): org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	checking org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT from twitter4j against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT from twitter4j[0m
+[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT in twitter4j[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve net.debasishg#redisclient_2.9.2;2.6[0m
+[0m[[0minfo[0m] [0mResolving net.debasishg#redisclient_2.9.2;2.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.debasishg#redisclient_2.9.2;2.6 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/fetcher/.ivy2/cache/net.debasishg/redisclient_2.9.2/ivy-2.6.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for net.debasishg#redisclient_2.9.2;2.6 (resolved by public): /home/fetcher/.ivy2/cache/net.debasishg/redisclient_2.9.2/ivy-2.6.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.debasishg#redisclient_2.9.2;2.6[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/fetcher/.ivy2/cache/net.debasishg/redisclient_2.9.2/ivy-2.6.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for net.debasishg#redisclient_2.9.2;2.6 (resolved by public): /home/fetcher/.ivy2/cache/net.debasishg/redisclient_2.9.2/ivy-2.6.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.debasishg#redisclient_2.9.2;2.6[0m
+[0m[[0mdebug[0m] [0m	checking net.debasishg#redisclient_2.9.2;2.6 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: net.debasishg#redisclient_2.9.2;2.6 from public[0m
+[0m[[0mdebug[0m] [0m	found net.debasishg#redisclient_2.9.2;2.6 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve commons-pool#commons-pool;1.5.6[0m
+[0m[[0minfo[0m] [0mResolving commons-pool#commons-pool;1.5.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-pool#commons-pool;1.5.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/fetcher/.ivy2/cache/commons-pool/commons-pool/ivy-1.5.6.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-pool#commons-pool;1.5.6 (resolved by public): /home/fetcher/.ivy2/cache/commons-pool/commons-pool/ivy-1.5.6.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/fetcher/.ivy2/cache/commons-pool/commons-pool/ivy-1.5.6.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-pool#commons-pool;1.5.6 (resolved by public): /home/fetcher/.ivy2/cache/commons-pool/commons-pool/ivy-1.5.6.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0m	checking commons-pool#commons-pool;1.5.6 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: commons-pool#commons-pool;1.5.6 from public[0m
+[0m[[0mdebug[0m] [0m	found commons-pool#commons-pool;1.5.6 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.6.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/fetcher/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.1.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.slf4j#slf4j-api;1.6.1 (resolved by public): /home/fetcher/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.1.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/fetcher/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.slf4j#slf4j-api;1.6.1 (resolved by public): /home/fetcher/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.1.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0m	checking org.slf4j#slf4j-api;1.6.1 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.slf4j#slf4j-api;1.6.1 from public[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.6.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=provided[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=optional[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT->org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->commons-pool#commons-pool;1.5.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-pool#commons-pool;1.5.6 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.9.2;2.6->org.slf4j#slf4j-api;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.6.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.example#myproj_2.9.2;0.1.0-SNAPSHOT->net.debasishg#redisclient_2.9.2;2.6 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of net.debasishg#redisclient_2.9.2;2.6 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=plugin[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=sources[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=docs[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.example#myproj_2.9.2;0.1.0-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mloadData of com.example#myproj_2.9.2;0.1.0-SNAPSHOT of rootConf=pom[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.twitter4j#twitter4j-core depends on org.slf4j#slf4j-api;1.5.8, doesn't match org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.debasishg#redisclient_2.9.2;2.6 / Number of dependencies = 9[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.5.6 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.debasishg#redisclient_2.9.2;2.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/fetcher/Desktop/ScalaTwitterClient/target/resolution-cache/com.example/myproj_2.9.2/0.1.0-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT!twitter4j-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT!twitter4j-stream.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.debasishg#redisclient_2.9.2;2.6!redisclient_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-pool#commons-pool;1.5.6!commons-pool.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.1!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3413ms :: artifacts dl 10ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.twitter4j#twitter4j-core depends on org.slf4j#slf4j-api;1.5.8, doesn't match org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.debasishg#redisclient_2.9.2;2.6 / Number of dependencies = 9[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.5.6 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.debasishg#redisclient_2.9.2;2.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0m	report for com.example#myproj_2.9.2;0.1.0-SNAPSHOT compile produced in /home/fetcher/Desktop/ScalaTwitterClient/target/resolution-cache/reports/com.example-myproj_2.9.2/compile-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.twitter4j#twitter4j-core depends on org.slf4j#slf4j-api;1.5.8, doesn't match org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.debasishg#redisclient_2.9.2;2.6 / Number of dependencies = 9[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.5.6 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.debasishg#redisclient_2.9.2;2.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0m	report for com.example#myproj_2.9.2;0.1.0-SNAPSHOT runtime produced in /home/fetcher/Desktop/ScalaTwitterClient/target/resolution-cache/reports/com.example-myproj_2.9.2/runtime-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.twitter4j#twitter4j-core depends on org.slf4j#slf4j-api;1.5.8, doesn't match org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.debasishg#redisclient_2.9.2;2.6 / Number of dependencies = 9[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.5.6 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.debasishg#redisclient_2.9.2;2.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0m	report for com.example#myproj_2.9.2;0.1.0-SNAPSHOT test produced in /home/fetcher/Desktop/ScalaTwitterClient/target/resolution-cache/reports/com.example-myproj_2.9.2/test-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.example#myproj_2.9.2;0.1.0-SNAPSHOT provided produced in /home/fetcher/Desktop/ScalaTwitterClient/target/resolution-cache/reports/com.example-myproj_2.9.2/provided-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.example#myproj_2.9.2;0.1.0-SNAPSHOT optional produced in /home/fetcher/Desktop/ScalaTwitterClient/target/resolution-cache/reports/com.example-myproj_2.9.2/optional-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.twitter4j#twitter4j-core depends on org.slf4j#slf4j-api;1.5.8, doesn't match org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.debasishg#redisclient_2.9.2;2.6 / Number of dependencies = 9[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.5.6 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.debasishg#redisclient_2.9.2;2.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0m	report for com.example#myproj_2.9.2;0.1.0-SNAPSHOT compile-internal produced in /home/fetcher/Desktop/ScalaTwitterClient/target/resolution-cache/reports/com.example-myproj_2.9.2/compile-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.twitter4j#twitter4j-core depends on org.slf4j#slf4j-api;1.5.8, doesn't match org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.debasishg#redisclient_2.9.2;2.6 / Number of dependencies = 9[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.5.6 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.debasishg#redisclient_2.9.2;2.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0m	report for com.example#myproj_2.9.2;0.1.0-SNAPSHOT runtime-internal produced in /home/fetcher/Desktop/ScalaTwitterClient/target/resolution-cache/reports/com.example-myproj_2.9.2/runtime-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.twitter4j#twitter4j-core depends on org.slf4j#slf4j-api;1.5.8, doesn't match org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;2.2.6-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : net.debasishg#redisclient_2.9.2;2.6 / Number of dependencies = 9[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-pool#commons-pool;1.5.6 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.6.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0mSort done for : net.debasishg#redisclient_2.9.2;2.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : commons-pool#commons-pool;1.5.6[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.6.1[0m
+[0m[[0mdebug[0m] [0m	report for com.example#myproj_2.9.2;0.1.0-SNAPSHOT test-internal produced in /home/fetcher/Desktop/ScalaTwitterClient/target/resolution-cache/reports/com.example-myproj_2.9.2/test-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.example#myproj_2.9.2;0.1.0-SNAPSHOT plugin produced in /home/fetcher/Desktop/ScalaTwitterClient/target/resolution-cache/reports/com.example-myproj_2.9.2/plugin-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.example#myproj_2.9.2;0.1.0-SNAPSHOT sources produced in /home/fetcher/Desktop/ScalaTwitterClient/target/resolution-cache/reports/com.example-myproj_2.9.2/sources-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.example#myproj_2.9.2;0.1.0-SNAPSHOT docs produced in /home/fetcher/Desktop/ScalaTwitterClient/target/resolution-cache/reports/com.example-myproj_2.9.2/docs-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.example#myproj_2.9.2;0.1.0-SNAPSHOT pom produced in /home/fetcher/Desktop/ScalaTwitterClient/target/resolution-cache/reports/com.example-myproj_2.9.2/pom-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (3413ms resolve - 10ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
